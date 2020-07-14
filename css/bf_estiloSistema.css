@@ -1,0 +1,63 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    color: #1e9bde;
+    background-color: #eeeeee;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 10px solid #1e9bde;
+    border-right: 10px solid #1e9bde;
+    border-bottom: 2px solid #1e9bde;
+    border-top: 2px solid #1e9bde;
+    border-radius: 30px;
+}
+
+#divLogotipoSistema{
+    background-color: #1e9bde;
+    height: 70px;
+}
+
+#imgLogotipoSistema{
+    height: 60%;
+    vertical-align: middle;
+}
+
+#spanAuxiliarDeAlinhamentoVertical{
+    display:inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#imgIconeUsuario{
+    width: 100px;
+}
+
+#mensagemDeErro{
+    background-color: #d40000;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color: #ffffff;
+}
+

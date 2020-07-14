@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bluefood</title>
+    <link rel="stylesheet" type="text/css" href="css/bf_estiloSistema.css">
 </head>
 <body>
     <header>
-        <div>
+        <div id=divLogotipoSistema>
+            <span id="spanAuxiliarDeAlinhamentoVertical"></span>
             <a href="">
-                <img src="./images/bf_logotipoSistema.png">
+                <img id="imgLogotipoSistema" src="./images/bf_logotipoSistema.png">
             </a>
         </div>      
     </header>
@@ -17,7 +19,7 @@
     <!--Fim do cabeçalho-->
 
     <div>
-        <img src="./images/bf_iconeUsuario.png">
+        <img id="imgIconeUsuario" src="./images/bf_iconeUsuario.png">
         <h1>Autenticação</h1>
         <form method="POST" action="">
             <fieldset>
@@ -28,7 +30,7 @@
         </form>
         <br>
 
-        <div>
+        <div id="mensagemDeErro">
             Aqui vai um exemplo de mensagem de erro!
         </div><br>
 

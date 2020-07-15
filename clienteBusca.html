@@ -24,21 +24,64 @@
     <!--Fim do cabeçalho-->
 
     <div>
+        <h1>É hora de rangar!</h1>
+        <form method="POST" action="">
+            <fieldset>
+                <input type="text" name="busca" placeholder="Buscar por..."/>
+                <input type="button" value="Procurar"/>
+            </fieldset>
+        </form>
+    </div>
+
+    <div id="divCategoriasComidaGeral">
+        <div id="divCategoriasComidaOpcao">
+            <a href="#">
+                <img id="imgCategoriaComida" src="./images/sys_categoriaChurrasco.png"/><br/>
+                <span>Churrasco</span>
+            </a>
+        </div>
+        <div id="divCategoriasComidaOpcao">
+            <a href="#">
+                <img id="imgCategoriaComida" src="./images/sys_categoriaHamburguer.png"/><br/>
+                <span>Hamburguer</span>
+            </a>
+        </div>
+        <div id="divCategoriasComidaOpcao">
+            <a href="#">
+                <img id="imgCategoriaComida" src="./images/sys_categoriaPizza.png"/><br/>
+                <span>Pizza</span>
+            </a>
+        </div>
+        <div id="divCategoriasComidaOpcao">
+            <a href="#">
+                <img id="imgCategoriaComida" src="./images/sys_categoriaSalada.png"/><br/>
+                <span>Salada</span>
+            </a>
+        </div>
+        <div id="divCategoriasComidaOpcao">
+            <a href="#">
+                <img id="imgCategoriaComida" src="./images/sys_categoriaSobremesa.png"/><br/>
+                <span>Sobremesa</span>
+            </a>
+        </div>
+    </div>
+
+    <div>
         <h1>Resultados</h1>
         <fieldset>
             <legend>Filtros</legend>
             <input type="button" value="Entrega Grátis"/><br/>
             <input type="button" value="Maior preço"/> <input type="button" value="Menor preço"/><br/>
             <input type="button" value="Maior taxa"/> <input type="button" value="Menor taxa"/><br/>
-            <input type="button" value="Maior tempo"/> <input type="button" value="Menor tempo"/><br/>
+            <input type="button" value="Maior tempo"/> <input id="inputSelecionado" type="button" value="Menor tempo"/><br/>
         </fieldset>
     </div>
 
     <div>
-        <div>
+        <div id="divRestauranteOpcao">
             <a href="#">
-                <img src="./images/sys_restauranteBubgerKirg.png"/><br/>
-                <span>Nome do Restaurante</span><br/>
+                <img id="imgRestauranteOpcao" src="./images/sys_restauranteBubgerKirg.png"/><br/>
+                <span id="restauranteOpcaoTitulo">Nome do Restaurante</span><br/>
                 <span>Categoria de Comida</span><br/>
                 <span>Tempo médio de entrega: 40m</span><br/>
                 <span>Taxa de entrega: R$ 15,00</span><br>
@@ -46,10 +89,10 @@
         </div>
         <br/><br/>
 
-        <div>
+        <div id="divRestauranteOpcao">
             <a href="#">
-                <img src="./images/sys_restauranteMcNaldos.png"/><br/>
-                <span>Nome do Restaurante</span><br/>
+                <img id="imgRestauranteOpcao" src="./images/sys_restauranteMcNaldos.png"/><br/>
+                <span id="restauranteOpcaoTitulo">Nome do Restaurante</span><br/>
                 <span>Categoria de Comida</span><br/>
                 <span>Tempo médio de entrega: 40m</span><br/>
                 <span>Taxa de entrega: R$ 15,00</span><br>
@@ -57,10 +100,10 @@
         </div>
         <br/><br/>
 
-        <div>
+        <div id="divRestauranteOpcao">
             <a href="#">
-                <img src="./images/sys_restauranteSbubby.png"/><br/>
-                <span>Nome do Restaurante</span><br/>
+                <img id="imgRestauranteOpcao" src="./images/sys_restauranteSbubby.png"/><br/>
+                <span id="restauranteOpcaoTitulo">Nome do Restaurante</span><br/>
                 <span>Categoria de Comida</span><br/>
                 <span>Tempo médio de entrega: 40m</span><br/>
                 <span>Taxa de entrega: R$ 15,00</span><br>

@@ -101,9 +101,30 @@ textarea{
     height: 70px;
 }
 
+#divCategoriasComidaOpcao{
+    height: 130px;
+    float: left;
+}
+
+#divRestauranteOpcao{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#divCategoriasComidaGeral{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
 #imgLogotipoSistema{
     height: 60%;
     vertical-align: middle;
+}
+
+#imgCategoriaComida{
+    height: 50%;
 }
 
 #spanAuxiliarDeAlinhamentoVertical{
@@ -114,6 +135,15 @@ textarea{
 
 #imgIconeUsuario{
     width: 100px;
+}
+
+#imgRestauranteOpcao{
+    height: 130px;
+}
+
+#inputSelecionado{
+    background-color: #69c5ee;
+    border-color: #1e9bde;
 }
 
 #mensagemDeErro{
@@ -133,5 +163,10 @@ textarea{
 
 #imageIconeCarrinho{
     height: 50px;
+}
+
+#restauranteOpcaoTitulo{
+    font-weight: bold;
+    text-transform: uppercase;
 }
 

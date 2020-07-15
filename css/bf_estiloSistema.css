@@ -68,6 +68,29 @@ input[type=button]:hover, input[type=submit]:hover{
     background-color: #69c5ee;
     border-color: #1e9bde;
 }
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    border-spacing: 1px;
+}
+
+td{
+    padding: 3px;
+}
+
+th{
+    background-color: #1e9bde;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+
 textarea{
     width: 300px;
     height: 100px;
